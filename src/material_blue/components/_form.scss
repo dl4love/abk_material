@@ -1,0 +1,25 @@
+.formbox,
+div.formbox,
+#searchpic {
+  border-radius: 0;
+  legend, legend span, fieldset, a, .title4 {
+    border-radius: 0;
+  }
+
+  background-color:$form-bg;
+  legend {
+    background-color:$form-bg;
+  }
+  fieldset, legend span {
+    background-color:$form-bg-darken;
+    color: $form-color;
+  }
+}
+
+.formbox {
+  color: $form-color;
+
+  label, a, .title4 {
+    color: $form-color;
+  }
+}

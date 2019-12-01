@@ -1,0 +1,22 @@
+.pagejump li.pageboxcurrent,
+.categlistcontainer .categactive,
+.categlistcontainer .categactive a {
+  background-color:$accent;
+  color:white;
+  font-weight: normal !important;
+  border-radius: 0;
+}
+
+.event_datebox2, .event_datebox1 {
+  background-color:$accent;
+  padding: 5px;
+  border-radius: 6px;
+  color:white;
+  display: inline-block;
+}
+
+.isnewbox, .isupdatedbox {
+  background-color:#4CAF50;
+  color:white;
+  font-weight: normal !important;
+}

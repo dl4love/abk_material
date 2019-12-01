@@ -1,3 +1,21 @@
 @charset "utf-8";
 
+@import "components/variables";
+/* general */
+@import "components/general";
+/* header */
+@import "components/header";
+/* barre de navigation */
 @import "components/nav";
+/* onglets de navigation */
+@import "components/tabNav";
+/* formulaires */
+@import "components/form";
+/* breadcrumb */
+@import "components/breadcrumb";
+/* boutons */
+@import "components/buttons";
+/* tags */
+@import "components/tags";
+/* forum et topics */
+@import "components/forum";

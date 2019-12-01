@@ -1,0 +1,259 @@
+/* general */
+body,
+html {
+  font-family: 'Noto sans', 'Roboto', 'Arial', sans-serif;
+  color: black;
+}
+
+body,
+.linkboxattrib {
+  background-color: #eee;
+}
+
+body .forum_msg_text {
+  font-size: 14px;
+}
+
+body #topcontainer,
+body #infocontainer,
+body #bodycontainer,
+body .topcontainer {
+  background-color: #eee;
+}
+
+/* header */
+#topcontainer,
+#infocontainer,
+.topcontainer {
+  background-image: unset;
+}
+
+/* barre de navigation */
+#navcontainer .path .active {
+  background-color: inherit;
+}
+
+#menucontainer,
+#menucontainerbox,
+#menucontainer ul li.pushed {
+  background-color: #3f51b5;
+  background-image: unset;
+}
+
+#menucontainerbox {
+  height: auto;
+}
+
+#menucontainerbox:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+#menucontainerbox ul li a {
+  padding: 15px;
+  color: white;
+}
+
+.active,
+#menucontainer ul li.active,
+#menucontainer ul li.active a {
+  color: #536dfe;
+  background-color: white;
+  background-image: unset;
+}
+
+#menucontainer ul li a:hover {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, .2);
+  background-image: unset;
+}
+
+/* onglets de navigation */
+#tabcontainerbottom {
+  opacity: .9;
+  border-radius: 0;
+  background-color: #303f9f;
+}
+
+#tabcontainercontent .tabactive,
+#tabcontainercontent .tabinactive,
+#tabcontainercontent #tabcontainerbottom,
+#tabcontainercontent .tabactive a,
+#tabcontainercontent .tabinactive a {
+  color: white;
+  border-radius: 0;
+  background-image: unset;
+}
+
+#tabcontainercontent .tabinactive,
+#tabcontainercontent a {
+  background-color: #7986cb;
+}
+
+#tabcontainercontent .tabactive,
+#tabcontainercontent .tabactive a {
+  opacity: .90;
+  background-color: #303f9f;
+}
+
+/* formulaires */
+.formbox,
+div.formbox,
+#searchpic {
+  border-radius: 0;
+  background-color: #448aff;
+}
+
+.formbox legend,
+.formbox legend span,
+.formbox fieldset,
+.formbox a,
+.formbox .title4,
+div.formbox legend,
+div.formbox legend span,
+div.formbox fieldset,
+div.formbox a,
+div.formbox .title4,
+#searchpic legend,
+#searchpic legend span,
+#searchpic fieldset,
+#searchpic a,
+#searchpic .title4 {
+  border-radius: 0;
+}
+
+.formbox legend,
+div.formbox legend,
+#searchpic legend {
+  background-color: #448aff;
+}
+
+.formbox fieldset,
+.formbox legend span,
+div.formbox fieldset,
+div.formbox legend span,
+#searchpic fieldset,
+#searchpic legend span {
+  color: white;
+  background-color: #1565c0;
+}
+
+.formbox {
+  color: white;
+}
+
+.formbox label,
+.formbox a,
+.formbox .title4 {
+  color: white;
+}
+
+/* breadcrumb */
+#navcontainer .path a {
+  padding: 4px 10px;
+  color: white;
+  border-radius: 10px !important;
+  background-color: #009688;
+}
+
+#navcontainer .path a:hover {
+  text-decoration: none;
+  background-color: #004d40;
+}
+
+#navcontainer .path a.active {
+  background-color: #004d40;
+}
+
+/* boutons */
+.submit input,
+input[type='button'],
+input[type='submit'] {
+  font-size: 17px;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.25, .8, .25, 1);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border: none;
+  background-color: #ff6f00;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+}
+
+.submit input:hover,
+.submit input:hover,
+input[type='button']:hover,
+input[type='button']:hover,
+input[type='submit']:hover,
+input[type='submit']:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .25), 0 1px 1px rgba(0, 0, 0, .22);
+}
+
+/* tags */
+.pagejump li.pageboxcurrent,
+.categlistcontainer .categactive,
+.categlistcontainer .categactive a {
+  font-weight: normal !important;
+  color: white;
+  border-radius: 0;
+  background-color: #ff6f00;
+}
+
+.event_datebox2,
+.event_datebox1 {
+  display: inline-block;
+  padding: 5px;
+  color: white;
+  border-radius: 6px;
+  background-color: #ff6f00;
+}
+
+.isnewbox,
+.isupdatedbox {
+  font-weight: normal !important;
+  color: white;
+  background-color: #4caf50;
+}
+
+/* forum et topics */
+div[class^='forum_forumlist_img'],
+div[class^='forum_topiclist_img'],
+div[class^='forum_topiclistcol'] {
+  border-radius: 0;
+}
+
+/* forum non lu ou avec un nouveau topic */
+.forum_forumlist_img1 {
+  background-color: #009688;
+}
+
+/* forum ouvert sans nouveau topic */
+.forum_forumlist_img2 {
+  background-color: #c5cae9;
+}
+
+/* sujet lu */
+.forum_topiclist_img1 {
+  background-color: #3f51b5;
+}
+
+/* sujet non lu */
+.forum_topiclist_img3 {
+  background-color: #c5cae9;
+}
+
+/* sujet lu avec nouveau message */
+.forum_topiclist_img6 {
+  background-color: #009688;
+}
+
+/* ligne entre deux message */
+.forum_msg_date_new,
+.forum_msg_date_new span {
+    /**/
+  color: white !important;
+  background-color: #009688 !important;
+}

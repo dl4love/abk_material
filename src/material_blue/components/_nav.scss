@@ -1,0 +1,33 @@
+#navcontainer .path .active {
+  background-color:inherit;
+}
+
+#menucontainer,
+#menucontainerbox,
+#menucontainer ul li.pushed {
+  background-color: $nav-bg-color;
+  background-image: unset;
+}
+#menucontainerbox {
+  height:auto;
+  &:after {
+    content:'';
+    display:table;
+    clear:both;
+  }
+  ul li a {
+    padding: 15px;
+    color: $nav-color;
+  }
+}
+.active, #menucontainer ul li.active, #menucontainer ul li.active a  {
+  color:#536DFE;
+  background-color: $nav-active-bg-color;
+  background-image: unset;
+}
+
+#menucontainer ul li a:hover  {
+  background-color:rgba(255,255,255,0.2);
+  background-image: unset;
+  text-decoration:none;
+}

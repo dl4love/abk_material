@@ -1,0 +1,35 @@
+div[class^='forum_forumlist_img'],
+div[class^='forum_topiclist_img'],
+div[class^='forum_topiclistcol'] {
+  border-radius: 0;
+}
+
+/* forum non lu ou avec un nouveau topic */
+.forum_forumlist_img1 {
+  background-color:$secondary;
+}
+/* forum ouvert sans nouveau topic */
+.forum_forumlist_img2{
+  background-color: #c5cae9;
+}
+
+/* sujet lu */
+.forum_topiclist_img1 {
+  background-color:$primary;
+}
+/* sujet non lu */
+.forum_topiclist_img3 {
+  background-color: #c5cae9 ;
+}
+.forum_topiclist_img2 {}
+
+/* sujet lu avec nouveau message */
+.forum_topiclist_img6 {
+  background-color: $secondary;
+}
+
+/* ligne entre deux message */
+.forum_msg_date_new, .forum_msg_date_new span {
+  background-color: $secondary !important;
+  color: white !important;
+}

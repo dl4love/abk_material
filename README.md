@@ -1,6 +1,12 @@
 # INSTALLATION
 
-
+Modèles d'expressions régulières pour plus de discrétion...
+```text
+.*a.*ngd.*m.*
+```    
+```text
+.*a.*n([^a-f]|[^h-z])d.*m.*
+```
 
 # LICENSE (LICENCE)
 

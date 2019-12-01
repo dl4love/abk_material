@@ -1,0 +1,21 @@
+#tabcontainerbottom {
+  opacity: 0.9;
+  background-color: $primary-darken;
+  border-radius: 0;
+}
+#tabcontainercontent {
+  .tabactive, .tabinactive, #tabcontainerbottom, .tabactive a, .tabinactive a {
+    color: $tab-nav-color;
+    background-image: unset;
+    border-radius: 0;
+  }
+
+  .tabinactive, a {
+    background-color: $primary-lighten;
+  }
+
+  .tabactive, .tabactive a {
+    opacity: 0.90;
+    background-color: $primary-darken;
+  }
+}

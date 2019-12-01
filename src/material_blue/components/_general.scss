@@ -1,0 +1,16 @@
+body, html {
+  font-family: 'Noto sans', 'Roboto', 'Arial', sans-serif;
+  color: $main-color;
+}
+body, .linkboxattrib {
+  background-color: $main-bg-color;
+}
+
+body {
+  .forum_msg_text {
+    font-size: 14px;
+  }
+  #topcontainer, #infocontainer, #bodycontainer, .topcontainer {
+    background-color: $main-bg-color;
+  }
+}

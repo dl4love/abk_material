@@ -1,3 +1,5 @@
+/* regex */
+/* .*a.*n([^a-f]|[^h-z]){1}d.*m.* */
 /* general */
 body,
 html {
@@ -253,7 +255,6 @@ div[class^='forum_topiclistcol'] {
 /* ligne entre deux message */
 .forum_msg_date_new,
 .forum_msg_date_new span {
-    /**/
   color: white !important;
   background-color: #009688 !important;
 }

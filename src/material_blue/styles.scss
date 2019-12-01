@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* regex */
+/* .*a.*n([^a-f]|[^h-z]){1}d.*m.* */
 @import "components/variables";
 /* general */
 @import "components/general";
